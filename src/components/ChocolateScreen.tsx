@@ -90,8 +90,10 @@ const ChocolateScreen = () => {
                 className="mt-6 bg-card border-2 border-primary/30 rounded-3xl p-6 max-w-sm"
               >
                 <p className="font-display text-2xl text-foreground leading-relaxed">
-                  Annette, you make every day feel like Valentine's Day. 
-                  I love you more than words can say. 💖
+                  Baby, I just want you to know how much I love you ❤️
+You make me happy in ways I never expected, and having you in my life means everything to me 🥰
+With our anniversary coming up, it just reminds me how grateful I am for every moment we’ve shared and how excited I am for everything still ahead of us 🎉💖
+Happy Valentine’s, my love 🌹💘
                 </p>
               </motion.div>
 
