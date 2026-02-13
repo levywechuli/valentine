@@ -26,7 +26,7 @@ const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
       transition={{ duration: 0.6 }}
     >
       {/* Photo Grid Background */}
-      <div className="grid grid-cols-3 gap-1.5 p-2 h-screen">
+      <div className="grid grid-cols-3 gap-0.5 sm:gap-1 md:gap-1.5 p-0 sm:p-1 md:p-2 h-screen">
         {photos.map((src, i) => (
           <motion.div
             key={i}
