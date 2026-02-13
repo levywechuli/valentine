@@ -52,7 +52,7 @@ const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
           absolute inset-0
           flex flex-col items-center justify-center
           bg-black/70 md:bg-black/50
-        
+          backdrop-blur-md
           text-center
           px-5
         "
