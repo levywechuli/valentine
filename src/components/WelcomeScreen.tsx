@@ -41,7 +41,7 @@ const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
               className="w-full h-full object-cover"
             />
             {/* Dim images slightly on mobile */}
-            <div className="absolute inset-0 bg-black/20 md:bg-primary/10" />
+            <div className="absolute inset-0 bg-black/10 md:bg-primary/10" />
           </motion.div>
         ))}
       </div>
