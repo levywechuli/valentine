@@ -6,15 +6,15 @@ interface WelcomeScreenProps {
 
 // Replace these placeholder paths with actual images of Annette
 const photos = [
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
+  "/photos/photo1.jpg",
+  "/photos/photo2.jpg",
+  "/photos/photo3.jpg",
+  "/photos/photo4.jpg",
+  "/photos/photo5.jpg",
+  "/photos/photo6.jpg",
+  "/photos/photo7.jpg",
+  "/photos/photo8.jpg",
+  "/photos/photo9.jpg",
 ];
 
 const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
@@ -27,7 +27,7 @@ const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
       transition={{ duration: 0.6 }}
     >
       {/* Photo Grid Background */}
-      <div className="grid grid-cols-3 sm:grid-cols-3 gap-1.5 p-1.5 min-h-screen">
+      <div className="grid grid-cols-3 gap-1.5 p-2 h-screen">
         {photos.map((src, i) => (
           <motion.div
             key={i}
@@ -48,7 +48,7 @@ const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
       </div>
 
       {/* Centered Overlay Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center bg-background/60 backdrop-blur-sm">
+     <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 text-center px-6">
         <motion.div
           initial={{ y: -20 }}
           animate={{ y: [0, -10, 0] }}
